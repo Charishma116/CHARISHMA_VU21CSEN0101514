@@ -31,3 +31,5 @@ Conclusion:
 This project showcases my ability to integrate React with external APIs, manage state effectively, and create a user-friendly interface. By handling API calls securely and ensuring that the UI updates dynamically based on the data received, I have developed a robust application that performs its intended functions efficient
 
 the output screen shots are attached below
+![Screenshot 2024-08-27 125326](https://github.com/user-attachments/assets/0a9188a8-866e-4292-b0ea-48b244cd8128)
+![Screenshot 2024-08-27 120440](https://github.com/user-attachments/assets/7eba0ab7-f334-4506-bcbc-f27dd6ca8de5)
