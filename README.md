@@ -28,7 +28,8 @@ Pushing the Code to GitHub:
 After finalizing the code, I pushed the entire project to a public GitHub repository named CHARISHMA_VU21CSEN0101514.
 I chose to keep only the master branch in my repository and deleted the main branch to maintain a clean and organized project structure.
 Conclusion:
-This project showcases my ability to integrate React with external APIs, manage state effectively, and create a user-friendly interface. By handling API calls securely and ensuring that the UI updates dynamically based on the data received, I have developed a robust application that performs its intended functions efficient
+This project showcases my abi![Screenshot 2024-08-27 130200](https://github.com/user-attachments/assets/f279820c-b034-461c-8f85-db89c8cb9be9)
+lity to integrate React with external APIs, manage state effectively, and create a user-friendly interface. By handling API calls securely and ensuring that the UI updates dynamically based on the data received, I have developed a robust application that performs its intended functions efficient
 
 the output screen shots are attached below
 ![Screenshot 2024-08-27 125326](https://github.com/user-attachments/assets/0a9188a8-866e-4292-b0ea-48b244cd8128)
