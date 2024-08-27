@@ -1,70 +1,31 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+Project Description: Average Calculator Microservice
+My name is Charishma VU21CSEN0101514, and I developed a project called Average Calculator Microservice using React. This project involves making API calls to fetch numbers and then calculating their average. The entire process is handled within a React component that maintains a dynamic state to reflect previous and current sets of numbers.
 
-### `npm start`
+Steps I Followed:
+Setting Up the Project:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I started by setting up a new React project using create-react-app. This provided a solid foundation for developing the application with React's powerful component-based architecture.
+Creating the Core Component:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I created a React component called NumberFetcher to manage all the logic and UI for the project.
+In this component, I used the useState hook to create state variables like numbers, windowPrevState, windowCurrState, and average.
+I also used the useEffect hook to fetch data as soon as the component was mounted, ensuring that the UI was updated with the latest numbers.
+Implementing API Calls:
 
-### `npm test`
+To fetch numbers from the server, I integrated Axios for making HTTP requests.
+I managed secure API access by including an authorization token in the request headers. This token was obtained from the server and was crucial for authenticating the API calls.
+The fetched data was then processed and stored in the component’s state, allowing the UI to display the results dynamically.
+Updating the User Interface:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The fetched numbers were displayed in a structured format, showing both the previous and current sets of numbers.
+I also included buttons that allowed the user to fetch different types of numbers (like primes, Fibonacci numbers, even numbers, and random numbers) with a simple click.
+Basic CSS was applied to ensure the UI was both functional and visually appealing.
+Pushing the Code to GitHub:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+After finalizing the code, I pushed the entire project to a public GitHub repository named CHARISHMA_VU21CSEN0101514.
+I chose to keep only the master branch in my repository and deleted the main branch to maintain a clean and organized project structure.
+Conclusion:
+This project showcases my ability to integrate React with external APIs, manage state effectively, and create a user-friendly interface. By handling API calls securely and ensuring that the UI updates dynamically based on the data received, I have developed a robust application that performs its intended functions efficient
